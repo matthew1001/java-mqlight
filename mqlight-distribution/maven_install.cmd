@@ -18,7 +18,7 @@ REM specific language governing permissions and limitations
 REM under the License.
 REM
 
-REM Install the MQ Light API to the local Maven repository
+REM Install MQ Light API to the local Maven repository
 call mvn org.apache.maven.plugins:maven-install-plugin:2.5.2:install-file -Dfile=mqlight-api-%version%.jar -DpomFile=mqlight/pom.xml
 
 REM Install the MQ Light API samples to the local Maven repository
